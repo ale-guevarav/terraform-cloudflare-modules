@@ -1,6 +1,6 @@
 
 output "worker_name" {
-  description = "Nombre del Worker creado"
+  description = "Nombre del Worker desplegado desde HCP Terraform"
   value       = module.cloudflare_app.worker_name
 }
 
